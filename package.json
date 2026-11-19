@@ -13,6 +13,9 @@
     "README.md",
     "LICENSE"
   ],
+  "bin": {
+    "kana": "./bin/kana.js"
+  },
   "scripts": {
     "test": "node --test"
   },
