@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a conversion that looks wrong
+title: "[bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve kana-kit! A tiny reproducible example is the
+        fastest way to get a fix.
+
+  - type: dropdown
+    id: conversion
+    attributes:
+      label: Conversion
+      options:
+        - kana → rōmaji
+        - rōmaji → kana
+        - hiragana → katakana
+        - katakana → hiragana
+    validations:
+      required: true
+
+  - type: input
+    id: input
+    attributes:
+      label: Input
+      description: The exact text you passed in.
+      placeholder: こんにちは
+    validations:
+      required: true
+
+  - type: input
+    id: expected
+    attributes:
+      label: Expected output
+      placeholder: konnichiha
+    validations:
+      required: true
+
+  - type: input
+    id: actual
+    attributes:
+      label: Actual output
+      placeholder: konnichiwa
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: How you used kana-kit.
+      placeholder: |
+        Node.js 24.14.1 on Windows 11
+        or kana-kit 0.1.0 in Chrome 143
+    validations:
+      required: false
