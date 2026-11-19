@@ -12,6 +12,8 @@ Node.js or the browser. It ships as a small ES module, a CLI, and a playground
 
 **[Try the live demo →](https://chopenguin.github.io/kana-kit/demo/)**
 
+![The kana-kit playground converting コーヒー to kōhī](demo/screenshot.png)
+
 ## Features
 
 - Hiragana ⇄ katakana, including half-width katakana input (`ｺﾞﾊﾝ` → `ごはん`)

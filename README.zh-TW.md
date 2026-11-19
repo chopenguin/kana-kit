@@ -13,6 +13,8 @@ Node.js 與瀏覽器。它是一個小型 ES module，附帶 CLI 與網頁 playg
 
 **[線上 Demo →](https://chopenguin.github.io/kana-kit/demo/)**
 
+![kana-kit playground：將 コーヒー 轉成 kōhī](demo/screenshot.png)
+
 ## 安裝
 
 kana-kit 目前還沒發佈到 npm，可直接從 GitHub 安裝：
